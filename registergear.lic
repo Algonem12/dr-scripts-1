@@ -109,5 +109,5 @@ fput("go curtain")
 
 @items.each do |item|
   register_item(item, debug)
-  pause 1  # prevent command flooding
+  pause 1 # prevent command flooding
 end
